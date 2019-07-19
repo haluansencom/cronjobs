@@ -97,7 +97,7 @@ class CronJobs extends Module
     protected function getAdminDir()
     {
         //return basename(_PS_ADMIN_DIR_);
-        return basename(PS_ROOT_DIR_.'/admin/');
+        return basename(_PS_ROOT_DIR_.'/admin/');
     }
 
     protected function init()
